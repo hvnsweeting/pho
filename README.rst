@@ -6,6 +6,7 @@ Or just "Phở", `a Vietnamese soup - the most delicious food in the world
 
 .. image:: https://raw.github.com/hvnsweeting/pho/master/misc/pho.jpeg
 
+
 ``pho`` helps creating a shell script associates to a task, run it easily as
 a helper. It helps keeping a log/tool that helps user later when there is
 a need to look back the task.
@@ -41,12 +42,20 @@ Or return it to undone::
 
   pho undone t1235
 
-List all task::
+To list all tasks::
 
   pho list
   pho list --all # to list also done tasks
 
-Author
-------
+Showing specific script of task::
+
+  pho show t1235
+
+Appending a comment to script file::
+
+  pho comment t1235 'http://a_link_that_help'
+
+Authors
+-------
 
 Viet Hung Nguyen <hvn@familug.org>
