@@ -18,7 +18,7 @@ echo $0
 
 
 def datadir():
-    path = os.path.expanduser('~/.utask')
+    path = os.path.expanduser('~/.pho')
     if not os.path.isdir(os.path.abspath(path)):
         os.mkdir(path)
 
